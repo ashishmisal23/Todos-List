@@ -19,7 +19,7 @@ export const AddTodo = ({ addTodo }) => {
             setDesc("")
             ShowMsg("Todo Has Been Added")
         }
-    };``
+    };
     const ShowMsg = (msg) => {
         const greetMsg = ReactDOM.createRoot(document.getElementById('greetMsg'));
 

@@ -4,8 +4,14 @@ import Header from './componants/Header';
 import { Todos } from './componants/Todos';
 import { Footer } from './componants/Footer';
 import { AddTodo } from './componants/AddTodo';
+import About from './componants/About'
 
 
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 
 
 function App() {
@@ -52,12 +58,25 @@ function App() {
   }, [todos]);
 
   return (
-    <>
+    <Router>
       <Header title="My Todos List" searchBar={true} />
-      <AddTodo addTodo={addTodo} />
-      <Todos todos={todos} onDelete={onDelete} />
+
+      <Routes>
+        <Route exact path="/" element={
+            <>
+              <AddTodo addTodo={addTodo} />
+              <Todos todos={todos} onDelete={onDelete} />
+            </>
+        } />
+
+
+        <Route exact path="/about" element={<About />} />
+
+
+      </Routes>
+
       <Footer />
-    </>
+    </Router >
   );
 }
 

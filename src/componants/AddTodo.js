@@ -22,7 +22,6 @@ export const AddTodo = ({ addTodo }) => {
     };
     const ShowMsg = (msg) => {
         const greetMsg = ReactDOM.createRoot(document.getElementById('greetMsg'));
-
         greetMsg.render(<GreetMsg msg={msg} />)
 
     };

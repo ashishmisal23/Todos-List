@@ -1,6 +1,6 @@
 import React from 'react'
 
-function GreetMsg({msg}) {
+function GreetMsg({ msg }) {
 
   return (
     <p>{msg}</p>

@@ -5,13 +5,16 @@ import { Todos } from './componants/Todos';
 import { Footer } from './componants/Footer';
 import { AddTodo } from './componants/AddTodo';
 import About from './componants/About'
-
+import Login from './componants/Login'
+import SignUp from './componants/SignUp'
 
 import {
   BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
+import ErrorMsg from './componants/ErrorMsg';
+
 
 
 function App() {
@@ -59,18 +62,21 @@ function App() {
 
   return (
     <Router>
-      <Header title="My Todos List" searchBar={true} />
+      <Header title="My Todos List" />
 
       <Routes>
         <Route exact path="/" element={
-            <>
-              <AddTodo addTodo={addTodo} />
-              <Todos todos={todos} onDelete={onDelete} />
-            </>
+          <>
+            <AddTodo addTodo={addTodo} />
+            <Todos todos={todos} onDelete={onDelete} />
+          </>
         } />
 
 
         <Route exact path="/about" element={<About />} />
+        <Route exact path="/login" element={<Login />} />
+        <Route exact path="/signup" element={<SignUp />} />
+        <Route exact path="/*" element={<ErrorMsg/>} />
 
 
       </Routes>

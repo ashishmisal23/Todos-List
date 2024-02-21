@@ -6,8 +6,8 @@ const About = () => {
 
   return (
     <div className='container'>
-      This is an About Componant
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus,fficiis saepe similique repudiandae iusto vero cum quod architecto nulla consequuntur Cupiditate impedit laborum delectus facilis saepe temporibus quo quae est</p>
+      <h2 className='text-center mt-5 p-2'>About Todos List</h2>
+      <p></p>
     </div>
   )
 }

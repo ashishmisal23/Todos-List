@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+### Todos List
+This project is a simple todo list application built using React. It allows users to add, delete, and view their todo items. Below are instructions on how to use the application:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Usage
+1.  Clone the Repository
+    git clone https://github.com/ashishmisal23/Todos-List.git
+    
+2.  Navigate to the Project Directory
+    cd Todos-List
 
-## Available Scripts
+3.  Install Dependencies
+    npm install
 
-In the project directory, you can run:
+4.  Run the Application
+    npm start
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5.  View the Application in Your Browser
+    Open http://localhost:3000 to view the application in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Usage
+1.  Adding Todos
+    To add a new todo, type your todo item in the input field provided and press enter or click the "Add Todo" button.
 
-### `npm test`
+2.  Deleting Todos
+    To delete a todo, click the delete button (trash icon) next to the todo item you want to remove.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3.  Viewing Todos
+    All your todo items will be displayed in a list format on the page.
 
-### `npm run build`
+4.  No Todos to Display
+    If there are no todo items, a message indicating "No Todos to Display" will be shown.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Live Demo
+    You can also access a live demo of this project here.
+    https://todos-list-ashishmisal.vercel.app/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### GitHub Repository
+The source code for this project is available on GitHub: Todos-List.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Feel free to explore the codebase, contribute, or suggest improvements.
+    You can mail me on : ashishmisal23@gmail.com

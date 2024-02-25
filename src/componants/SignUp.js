@@ -5,20 +5,18 @@ const SignUp = () => {
     let style = {
         width: "50%",
         margin: "auto",
-        border: "1px solid grey",
-        padding: "35px",
         display: "flex",
         flexDirection: "column",
         gap: "10px"
-
     }
+    
     let myStyle2 = {
         display: "flex",
-        flexDirection: "row",
-        gap: "80px",
-        alignItems: "flex-end"
-
+        flexDirection: "column",
+        margin: "auto",
+        justifyContent: "center"
     }
+
     return (
 
         <div className='container p-5'>
@@ -42,18 +40,19 @@ const SignUp = () => {
                     <label htmlFor="exampleInputConfirmPassword1">Confirm Password</label>
                     <input type="password" className="form-control" id="exampleInputConfirmPassword1" placeholder="Confirm Password" />
                 </div>
+                <div className="form-group">
 
-                <div className="form-group" style={myStyle2}>
                     <div style={{ display: "flex", flexDirection: "column", gap: "1rem", width: "50%" }}>
-                        <small id="loginHelp" className="form-text text-muted">Already have an account?</small>
-                        <Link to="/login">
-                            <button type="button" className="btn btn-primary">Login</button>
-                        </Link>
-                    </div>
-                    <div style={{ display: "flex", flexDirection: "column", gap: "1rem", width: "50%" }}>
-                        <Link to="/signup">
+                        <Link to="#">
                             <button type="submit" className="btn btn-primary">Sign Up</button>
                         </Link>
+                    </div>
+                </div>
+
+                <div className="form-group" style={myStyle2}>
+                    <div>
+                        <small id="loginHelp" className="form-text text-muted">Already have an account? </small>
+                        <Link to="/login">Login</Link>
                     </div>
                 </div>
             </form>

@@ -5,8 +5,8 @@ const ErrorMsg = () => {
     let style = {
         minHeight: "80vh",
         padding: "100px 0px 100px 50px",
-        width:"50%",
-        margin:"auto 0 "
+        width: "50%",
+        margin: "auto 0 "
     }
     return (
         <div className='container' style={style}>

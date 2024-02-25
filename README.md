@@ -36,7 +36,8 @@ This project is a simple todo list application built using React. It allows user
     https://todos-list-ashishmisal.vercel.app/
 
 ### GitHub Repository
-The source code for this project is available on GitHub: Todos-List.
+    The source code for this project is available on GitHub: Todos-List.
+    https://github.com/ashishmisal23/Todos-List.git
 
 ### Feel free to explore the codebase, contribute, or suggest improvements.
     You can mail me on : ashishmisal23@gmail.com

@@ -2,20 +2,19 @@
     This project is a simple todo list application built using React. It allows users to add, delete, and view their todo items. Below are instructions on how to use the application: 
 
 ### Usage
-1.  Clone the Repository
+1.  Clone the Repository <br>
     git clone https://github.com/ashishmisal23/Todos-List.git
     
-2.  Navigate to the Project Directory
+2.  Navigate to the Project Directory <br>
     cd Todos-List
 
-3.  Install Dependencies
+3.  Install Dependencies <br>
     npm install
 
-4.  Run the Application
+4.  Run the Application <br>
     npm start
 
-
-5.  View the Application in Your Browser
+5.  View the Application in Your Browser <br>
     Open http://localhost:3000 to view the application in your browser.
 
 ### Functionality

@@ -18,7 +18,7 @@ This project is a simple todo list application built using React. It allows user
 5.  View the Application in Your Browser
     Open http://localhost:3000 to view the application in your browser.
 
-### Usage
+### Functionality
 1.  Adding Todos
     To add a new todo, type your todo item in the input field provided and press enter or click the "Add Todo" button.
 

@@ -1,5 +1,5 @@
 ### Todos List
-This project is a simple todo list application built using React. It allows users to add, delete, and view their todo items. Below are instructions on how to use the application:
+    This project is a simple todo list application built using React. It allows users to add, delete, and view their todo items. Below are instructions on how to use the application: 
 
 ### Usage
 1.  Clone the Repository
